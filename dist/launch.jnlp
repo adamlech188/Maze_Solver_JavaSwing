@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Maze</title>
+        <vendor>Adam</vendor>
+        <homepage href=""/>
+        <description>Maze</description>
+        <description kind="short">Maze</description>
+        
+        
+    </information>
+    <update check="always"/>
+    
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="Maze.jar" main="true"/>
+        
+        
+    </resources>
+    <application-desc main-class="maze.MazeController">
+        
+    </application-desc>
+</jnlp>
